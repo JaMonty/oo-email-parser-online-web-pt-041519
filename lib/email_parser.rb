@@ -6,10 +6,10 @@ class EmailParser
     @csv_emails = csv_emails
 end
 
-def parse
+  def parse
     csv_emails.split.collect do |email_address|
       email_address.split(',')
-    end
+  end
     .flatten.uniq
   end
 end
