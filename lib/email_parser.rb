@@ -1,6 +1,8 @@
 class EmailParser
   
 attr_accessor :csv_emails
+
+EmailParser.new
   
   def intialize (csv_emails)
     @csv_emails = csv_emails
