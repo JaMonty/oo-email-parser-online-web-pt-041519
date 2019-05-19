@@ -1,6 +1,6 @@
 class EmailParser
   
-  attr_accessor = emails
+  attr_accessor = csv_emails
   
   
   
