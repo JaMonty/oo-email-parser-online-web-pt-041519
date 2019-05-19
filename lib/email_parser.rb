@@ -4,18 +4,7 @@ attr_accessor :csv_emails
 
 EmailParser.new
   
-  def intialize (csv_emails)
-    @csv_emails = csv_emails
-end
 
-  
-  def parse
-    csv_emails.split.collect do |email_address|
-      email_address.split(',')
-  end
-    .flatten.uniq
-  end
-end
 
 
 
