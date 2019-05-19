@@ -1,6 +1,6 @@
 class EmailParser
   
-  attr_accessor = 
+  attr_accessor = emails
   
   
   
